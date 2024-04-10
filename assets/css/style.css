@@ -2489,12 +2489,36 @@ select {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-stone-400 {
+  --tw-gradient-from: #a8a29e var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(168 162 158 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-gray-300 {
+  --tw-gradient-from: #d1d5db var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(209 213 219 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-yellow-300 {
   --tw-gradient-to: #fde047 var(--tw-gradient-to-position);
 }
 
 .to-gray-300 {
   --tw-gradient-to: #d1d5db var(--tw-gradient-to-position);
+}
+
+.to-stone-300 {
+  --tw-gradient-to: #d6d3d1 var(--tw-gradient-to-position);
+}
+
+.to-gray-100 {
+  --tw-gradient-to: #f3f4f6 var(--tw-gradient-to-position);
+}
+
+.to-gray-200 {
+  --tw-gradient-to: #e5e7eb var(--tw-gradient-to-position);
 }
 
 .decoration-slice {
@@ -2701,6 +2725,14 @@ select {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
 }
 
 .text-left {
